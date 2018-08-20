@@ -78,11 +78,6 @@ public class UserControllerUnitTest {
 	}
 
 	@Test
-	public void testLogout() {
-		fail("Not yet implemented");
-	}
-
-	@Test
 	public void testLoginWhenCredentialsAreWrong() {
 		UserEntity user =new UserEntity();
 		user.setEmployeeId(1);
