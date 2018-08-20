@@ -1,16 +1,14 @@
 package com.example.demo;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
-public class PayRollApplicationTests {
-
+public class PayRollApplicationTests 
+{
 	@Test
-	public void contextLoads() {
+	public void canary() {
+		assert(true);
 	}
-
-}
+} 
